@@ -1,0 +1,187 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+input[type=text], input[type=password] ,input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+body{
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  border: 5px solid rgb(68, 216, 159);
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 500px;
+  padding: 20px;
+  width: 320px;
+}
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 100%;
+}
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 20px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+
+}
+input[type="submit"] {
+  display: none;
+}
+.custom-file-upload:hover {
+  opacity: 0.8;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.newUser {
+  width: auto;
+  
+}
+
+.container {
+  position: absolute;
+  padding: 16px;
+}
+.bottom {
+  position: absolute;
+  bottom: 5px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+table {
+  margin: 25px auto;
+  table-layout: fixed;
+  width: 100%;
+  position: sticky;
+  text-align: left;
+  border-collapse: collapse;
+  border: 1px solid #eee;
+  border-bottom: 2px solid #04AA6D;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.10),
+     0px 10px 20px rgba(0,0,0,0.05),
+     0px 20px 20px rgba(0,0,0,0.05),
+     0px 30px 20px rgba(0,0,0,0.05);
+
+  }
+  tr:hover{
+    color: #999;
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    border-collapse: collapse;
+  }
+  th {
+    background: #04AA6D;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  #prog-bar-cont{
+    background: gainsboro;
+    width: 25vw;
+    height: 0.5em;
+    position: relative;
+    margin-top: 10px;
+    top: 13%;
+    left: 13%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 50px;
+    box-sizing: border-box;
+    box-shadow: 0 0 1px 0 rgba(#000, 0.75) inset, 0 0 4px 0 rgba(#000, 0.5);
+  }
+#prog-bar{
+      background: #000;
+      height: 0.5em;
+      border-radius: 50px;
+      overflow: hidden;
+      position: relative;
+      box-shadow: 0 0 0 1px rgba(0,0,0,0.15) inset, 0 0 1px 3px rgba(white, 0.75) inset;
+      background: transparent;
+    }
+    #background{
+          width: 100%;
+          height: 0.5em;
+          position: relative;
+          top: 0;
+          left: 0;
+    }
+svg:hover{
+ color:#000;
+}
+.settings:hover {
+  fill: black
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 0; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  
+  
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 5px solid #04AA6D;
+  width: 20%;
+  border-radius: 25px;
+  word-wrap: break-word;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
